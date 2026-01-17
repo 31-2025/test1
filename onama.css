@@ -1,0 +1,113 @@
+.prvimeni a{
+    text-decoration:none;
+    font-weight:bold;
+}
+.prvimeni{
+    display:flex;
+    background-color:#212F3D;
+    height:60px;
+    position:relative;
+}
+.prvimenidesni {
+    text-align:right;
+    padding-right:80px;
+    padding-top: 10px;
+    flex-grow:3;
+}
+.prvimenilevi{
+    text-align:left;
+    flex-grow:1;
+    padding-top:20px;
+    padding-left:10px;
+}
+#pomoc{
+    color:#CACFD2;
+}
+.prvimenidesni a{
+    padding-right:15px;
+    color:#CACFD2 ;
+    font-size: 15px;
+}
+.prvimenidesni img{
+    height: 30px;
+    width: 30px;
+    flex-grow: 1;
+    border-radius: 33%;
+}
+.prvimenidesni a:hover{
+    color:#F8C471;
+    opacity:80%;
+    font-size: 18px;
+    transition: 400ms;
+}
+.pozadina{
+    display: block;
+    background-image: url("https://media.istockphoto.com/id/1352056821/photo/blank-gold-and-silver-ring-diamond-mockup-stand-front-view.jpg?s=2048x2048&w=is&k=20&c=hUmrfODi1eF1k2uPb7HBdvhMjZXzVlZT3T054haYaKg=");
+    width: 100%;
+    padding-bottom: 100px;
+    background-size: cover;
+}
+.drugimeni img{
+    width:70px;
+    height:70px;
+    margin-left: 48%;
+}
+.drugimeni h2{
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+    font-family: monaco ;
+    color:#212F3D;
+}
+.drugimeni a{
+    text-decoration:none;
+}
+#nakit{
+    flex-grow:1;
+    margin-left:700px;
+    font-family: monaco ;
+    color:#212F3D;
+}
+.glavnimeni{
+    height:50px;
+    display: flex;
+    margin-left: 22%;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.glavnimeni a{
+    flex-grow:1;
+    text-align: center;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family:monaco ;
+    color:#212F3D;
+    text-decoration: none;
+}
+.glavnimeni a:hover{
+    color:#F8C471;
+    font-size: 23px;
+    transition: 400ms;
+}
+*{
+    padding: 0;
+    margin:0;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+    color: #212F3D;
+    font-family: monaco;
+    padding-top: 150px;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    color: #212F3D;
+    padding-top: 100px;
+    margin-left: 350px;
+    margin-right: 350px;
+    height: 1000px;
+}
